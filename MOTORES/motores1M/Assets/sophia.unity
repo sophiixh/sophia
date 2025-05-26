@@ -843,6 +843,7 @@ GameObject:
   - component: {fileID: 1474151331}
   - component: {fileID: 1474151330}
   - component: {fileID: 1474151332}
+  - component: {fileID: 1474151333}
   m_Layer: 0
   m_Name: 33d6f27a80766817cd0992f858c6a679__1_-removebg-preview (1)_0
   m_TagString: Untagged
@@ -959,7 +960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 659fcf640b7718a4c9cd9c6c010fccda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 40
+  velocidade: 10
 --- !u!61 &1474151331
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1016,6 +1017,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 479f64bad63e42b488aed3920a2be41c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1474151333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474151324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbdbb121f4075dc4ca5e3c189eb3e34b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1541177025

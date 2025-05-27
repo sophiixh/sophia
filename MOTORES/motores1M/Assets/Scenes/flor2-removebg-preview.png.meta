@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      flor2-removebg-preview_0: -1815563657257267722
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

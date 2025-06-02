@@ -842,7 +842,6 @@ GameObject:
   - component: {fileID: 1474151327}
   - component: {fileID: 1474151331}
   - component: {fileID: 1474151330}
-  - component: {fileID: 1474151332}
   - component: {fileID: 1474151333}
   m_Layer: 0
   m_Name: 33d6f27a80766817cd0992f858c6a679__1_-removebg-preview (1)_0
@@ -1007,18 +1006,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.71, y: 5.46}
   m_EdgeRadius: 0
---- !u!114 &1474151332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1474151324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 479f64bad63e42b488aed3920a2be41c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1474151333
 MonoBehaviour:
   m_ObjectHideFlags: 0

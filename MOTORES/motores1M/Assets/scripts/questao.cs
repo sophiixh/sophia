@@ -1,16 +1,28 @@
 using UnityEngine;
 
-public class questao : MonoBehaviour
+public class Questao : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public int respsota;
+    
+   void Start()
     {
-        
+        respsota = 0;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            respsota = 1;
+        }
+        else if(Input.GetKeyDown(KeyCode.B))
+        {
+            respsota = 2;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("A resposta é "+respsota+" !");
+        }
     }
 }

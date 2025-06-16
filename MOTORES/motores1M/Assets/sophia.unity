@@ -844,7 +844,7 @@ GameObject:
   - component: {fileID: 1474151330}
   - component: {fileID: 1474151333}
   m_Layer: 0
-  m_Name: 33d6f27a80766817cd0992f858c6a679__1_-removebg-preview (1)_0
+  m_Name: 'player '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

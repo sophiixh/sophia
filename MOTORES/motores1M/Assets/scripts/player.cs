@@ -32,8 +32,6 @@ public class Player : MonoBehaviour
             rb.AddForce(new Vector2(0,forcaDoPulo), ForceMode2D.Impulse);
         }
 
-    }
-
     void OnCollisionEnter2D(Collision2D colisao)
     {
         //if (colisao.gameObject.tag == "Chao")
@@ -50,4 +48,5 @@ public class Player : MonoBehaviour
             noChao = false;
         }
     }
+
 }

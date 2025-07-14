@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: parado ET1
+  m_Name: andando ET2
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,6 +21,10 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
+      value: {fileID: -1826952330918056546, guid: 3ac9e14713f92a440893099445c7e367, type: 3}
+    - time: 0.05
+      value: {fileID: 1614739782702853134, guid: 3ac9e14713f92a440893099445c7e367, type: 3}
+    - time: 0.1
       value: {fileID: -1826952330918056546, guid: 3ac9e14713f92a440893099445c7e367, type: 3}
     attribute: m_Sprite
     path: 
@@ -45,12 +49,14 @@ AnimationClip:
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
     - {fileID: -1826952330918056546, guid: 3ac9e14713f92a440893099445c7e367, type: 3}
+    - {fileID: 1614739782702853134, guid: 3ac9e14713f92a440893099445c7e367, type: 3}
+    - {fileID: -1826952330918056546, guid: 3ac9e14713f92a440893099445c7e367, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.016666668
+    m_StopTime: 0.11666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
